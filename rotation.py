@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread("/home/dhruv/New_cv2_project/test_img/modi.jpg")
+image = cv2.imread("Enter/file/path.jpeg")
 
 if image is None:
     print("Could not load the Image ")
